@@ -129,7 +129,7 @@ const Contact = () => {
     <ContactSection id="contact">
       <Title>Get in touch</Title>
       {/* <Text>Lorem ipsum dolor sit amet, consectetur adipisicing.</Text> */}
-      <Icons>
+      {/* <Icons>
         <a href="https://www.facebook.com/">
           {" "}
           <img src={Facebook} alt="Facebook" />
@@ -143,14 +143,14 @@ const Contact = () => {
         <a href="https://www.instagram.com/">
           <img src={Instagram} alt="Instagram" />
         </a>
-      </Icons>
+      </Icons> */}
       <Form>
         <Row>
-          <input name="name" type="text" placeholder="your name" />
+          <input name="name" type="text" placeholder="Name" />
           <input
             name="email"
             type="email"
-            placeholder="enter working email id"
+            placeholder="Enter your email"
           />
         </Row>
         <textarea
@@ -158,7 +158,7 @@ const Contact = () => {
           id=""
           cols="30"
           rows="2"
-          placeholder="your message"
+          placeholder="Message"
         ></textarea>
         <div style={{ margin: "0 auto" }}>
           <button

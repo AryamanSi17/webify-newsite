@@ -5,13 +5,12 @@ export const GlobalStyle = createGlobalStyle`
 :root{
    --background: #eff7f9;
    --black:#0a0b10;
-   --purple:#803bec;
-   --pink:#e5a1f8;
+   --purple:#FF7043; /* Updated to a vibrant orange shade */
+   --pink:#FFA726; /* Updated to a softer orange shade */
    --white:#fff;
    --nav:#35353f;
    --nav2:#3f3d56;
 }
-
 
 *,*::before,*::after{
     margin:0;
@@ -72,5 +71,3 @@ html{
 
 
 `;
-
-//  /* Colors */

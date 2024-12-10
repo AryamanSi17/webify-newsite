@@ -30,6 +30,7 @@ const Image = styled.div`
 `;
 
 const TEXT = styled.h4`
+ margin-top: 2rem;
   color: var(--white);
   padding: 0 calc(1rem + 1vw);
 

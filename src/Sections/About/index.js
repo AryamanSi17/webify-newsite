@@ -53,6 +53,7 @@ const Main = styled.div`
 const Title = styled.h1`
   font-size: 2rem;
   display: inline-block;
+  margin-top: 2rem;
 `;
 
 const CurvedLine = styled.div`
@@ -139,10 +140,7 @@ const About = () => {
             </Human>
 
             <Text>
-              We help our customers to tell about themselves, to grow and stand
-              out in an increasingly competitive digital world, through creative
-              projects that are able to attract and involve, creating strategic
-              value.
+            We empower businesses to establish and enhance their online presence by building innovative web and mobile applications. Our agency specializes in crafting creative and strategic solutions that help businesses showcase their brand, engage their audience, and thrive in today’s competitive digital landscape.
             </Text>
             <div>
               <Circle style={{ backgroundColor: "var(--purple)" }} />
